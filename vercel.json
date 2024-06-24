@@ -5,7 +5,7 @@
       "destination": "/api/express"
     },
     {
-      "source": "/gridwork-test/headers(.*)",
+      "source": "/onboarding-test/headers(.*)",
       "destination": "/api/headers"
     }
   ],
