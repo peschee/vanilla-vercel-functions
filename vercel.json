@@ -7,6 +7,10 @@
     {
       "source": "/api/hono/(.*)",
       "destination": "/api/hono"
+    },
+    {
+      "source": "/gridwork-test/headers(.*)",
+      "destination": "/api/headers"
     }
   ],
   "regions": ["fra1"]
