@@ -5,10 +5,6 @@
       "destination": "/api/express"
     },
     {
-      "source": "/api/hono/(.*)",
-      "destination": "/api/hono"
-    },
-    {
       "source": "/gridwork-test/headers(.*)",
       "destination": "/api/headers"
     }
