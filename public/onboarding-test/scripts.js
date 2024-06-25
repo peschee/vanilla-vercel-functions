@@ -40,11 +40,12 @@ document.addEventListener('DOMContentLoaded', () => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
+                'Authorization': `Bearer ${ token }`,
             },
             body: JSON.stringify({
                 operationName: 'AggregateOneList',
                 query: `query AggregateOneList { aggregateone: AggregateOneView {id name } }`,
-                variables: {}
+                variables: {},
             }),
         });
         const aggregates = await response.json();
