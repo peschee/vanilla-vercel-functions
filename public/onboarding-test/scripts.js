@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const { headers: url } = e.target.dataset;
-        const response = await fetch(url);
+        const response = await fetch(url, {
+            mode: "cors"
+        });
         const headers = await response.json();
 
         console.log(headers);
