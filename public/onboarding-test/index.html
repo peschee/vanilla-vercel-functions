@@ -12,11 +12,26 @@
             white-space: pre;
             font-family: monospace;
         }
+
+        textarea {
+            width: 80%;
+        }
     </style>
 </head>
 <body>
     <h1>Vercel Gridwork Test</h1>
-    <p><a href="#" data-headers="./headers">Headers</a></p>
+
+    <ul>
+        <li><a href="#" data-headers="./headers">Headers</a></li>
+        <li>
+            <label for="jwt">Token</label><br>
+            <textarea rows="5" id="jwt" data-token></textarea><br>
+            <br>
+<!--            <a href="#" data-graphql="/owner/v1/graphql">GraphQL API</a>-->
+            <a href="#" data-graphql="https://gridwork.inventage.dev/owner/v1/graphql">GraphQL API</a>
+        </li>
+    </ul>
+
     <div data-output></div>
 </body>
 </html>
