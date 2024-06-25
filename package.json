@@ -9,7 +9,7 @@
     "@vercel/kv": "^2.0.0",
     "@vercel/node": "^3.1.7",
     "express": "^4.19.2",
-    "hono": "^4.4.7"
+    "hono": "^4.4.8"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
