@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             output.innerHTML = '';
         }
 
-        const {headers: url} = e.target.dataset;
+        const { headers: url } = e.target.dataset;
         const response = await fetch(url, {
             mode: 'cors',
         });
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             output.innerHTML = '';
         }
 
-        const {graphql: url} = e.target.dataset;
+        const { graphql: url } = e.target.dataset;
 
         const response = await fetch(url, {
             method: 'POST',
