@@ -9,5 +9,13 @@
       "destination": "/api/headers"
     }
   ],
-  "regions": ["fra1"]
+  "redirects": [
+    {
+      "source": "/onboarding-test/authenticated",
+      "destination": "/onboarding-test"
+    }
+  ],
+  "regions": [
+    "fra1"
+  ]
 }
